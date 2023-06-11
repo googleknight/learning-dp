@@ -9,8 +9,7 @@ const usingRecursion = (wt,val,w,n) => {
     }
     if(wt[n-1]>w){
         return usingRecursion(wt,val,w,n-1);
-    }
-    
+    }   
 }
 
 export default usingRecursion
