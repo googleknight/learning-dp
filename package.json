@@ -1,0 +1,15 @@
+{
+  "name": "learning-dp",
+  "version": "1.0.0",
+  "description": "Solving DP problems",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Shubham Mathur",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
+}
