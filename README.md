@@ -8,3 +8,4 @@ Solving DP problems
     - [Top Down iterative approach](/Knapsack-0-1/usingTopDown.js)
     - [Subset Sum](/Knapsack-0-1/subsetSum.js)
     - [Partition Equal Subset Sum](/Knapsack-0-1/partitionEqualSubsetSum.js)
+    - [Count of Subset with sum x](/Knapsack-0-1/countOfSubsetWithSum.js)
