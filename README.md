@@ -9,3 +9,4 @@ Solving DP problems
     - [Subset Sum](/Knapsack-0-1/subsetSum.js)
     - [Partition Equal Subset Sum](/Knapsack-0-1/partitionEqualSubsetSum.js)
     - [Count of Subset with sum x](/Knapsack-0-1/countOfSubsetWithSum.js)
+    - [Minimum difference between two subsets](/Knapsack-0-1/minimumSubsetSumDifference.js)
