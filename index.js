@@ -6,6 +6,7 @@ import canPartition from "./Knapsack-0-1/partitionEqualSubsetSum.js";
 import getCountOfSubsetSum from "./Knapsack-0-1/countOfSubsetWithSum.js";
 import minSumSubsetDiff from "./Knapsack-0-1/minimumSubsetSumDifference.js";
 import rodCuttingMaxProfit from "./unbounded-Knapsack/rodCuttingMaxProfit.js";
+import coinChangeMaxWaysToSum from "./unbounded-Knapsack/coinChangeMaxWaysToSum.js";
 
 let w = 10,
   wt = [1, 3, 4, 6],
@@ -25,3 +26,4 @@ console.log(minSumSubsetDiff([1, 6, 11, 5], 4));
 
 // [1, 5, 8, 9, 10, 17, 17, 2],8 ans 22
 console.log(rodCuttingMaxProfit([1, 5, 8, 9, 10, 17, 17, 2], 8));
+console.log(coinChangeMaxWaysToSum([1, 2, 3], 5));
