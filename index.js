@@ -11,6 +11,7 @@ import coinChange from "./unbounded-Knapsack/getMinimumNumberOfCoinChange.js";
 import lcsRecursive from "./longestCommonSubsequence/lcsRecursive.js";
 import lcsMemoize from "./longestCommonSubsequence/lcsMemoization.js";
 import lcsTopDown from "./longestCommonSubsequence/lcsTopDown.js";
+import getLCSubstring from "./longestCommonSubsequence/longestCommonSubstring.js";
 
 let w = 10,
   wt = [1, 3, 4, 6],
@@ -36,3 +37,4 @@ console.log(coinChange([1, 2, 3], 5));
 console.log(lcsRecursive("abcde", "ace"));
 console.log(lcsMemoize("abcde", "ace"));
 console.log(lcsTopDown("abcde", "ace"));
+console.log(getLCSubstring("abcde", "abced"));
