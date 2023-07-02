@@ -18,5 +18,5 @@ Solving DP problems
 
 * LCS
     - [LCS Recursive](/longestCommonSubsequence/lcsRecursive.js)
-    - [LCS Memoization](/longestCommonSubsequence/lcsMemoization.js)
+    - [LCS Memorization](/longestCommonSubsequence/lcsMemoization.js)
     - [LCS Top Down](/longestCommonSubsequence/lcsTopDown.js)
