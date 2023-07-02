@@ -8,6 +8,7 @@ import minSumSubsetDiff from "./Knapsack-0-1/minimumSubsetSumDifference.js";
 import rodCuttingMaxProfit from "./unbounded-Knapsack/rodCuttingMaxProfit.js";
 import coinChangeMaxWaysToSum from "./unbounded-Knapsack/coinChangeMaxWaysToSum.js";
 import coinChange from "./unbounded-Knapsack/getMinimumNumberOfCoinChange.js";
+import lcsRecursive from "./longestCommonSubsequence/lcsRecursive.js";
 
 let w = 10,
   wt = [1, 3, 4, 6],
@@ -29,3 +30,5 @@ console.log(minSumSubsetDiff([1, 6, 11, 5], 4));
 console.log(rodCuttingMaxProfit([1, 5, 8, 9, 10, 17, 17, 2], 8));
 console.log(coinChangeMaxWaysToSum([1, 2, 3], 5));
 console.log(coinChange([1, 2, 3], 5));
+
+console.log(lcsRecursive("abcde", "ace"));
